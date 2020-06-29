@@ -4,7 +4,7 @@ export const storeProducts = [
   {
     id: 1,
     title: "iPhone 6",
-    img: "img/product-1.png",
+    img: "img/product1.png",
     price: 10,
     company: "Apple",
     info:
@@ -16,7 +16,7 @@ export const storeProducts = [
   {
     id: 2,
     title: "iPhone 6s",
-    img: "img/product-2.png",
+    img: "img/product2.png",
     price: 16,
     company: "Apple",
     info:
@@ -28,7 +28,7 @@ export const storeProducts = [
   {
     id: 3,
     title: "iPhone 7",
-    img: "img/product-3.png",
+    img: "img/product3.png",
     price: 8,
     company: "Apple",
     info:
@@ -40,7 +40,7 @@ export const storeProducts = [
   {
     id: 4,
     title: "iPhone 7plus",
-    img: "img/product-4.png",
+    img: "img/product4.png",
     price: 18,
     company: "Apple",
     info:
@@ -52,7 +52,7 @@ export const storeProducts = [
   {
     id: 5,
     title: "iPhone 8plus",
-    img: "img/product-5.png",
+    img: "img/product5.png",
     price: 24,
     company: "Apple",
     info:
@@ -64,7 +64,7 @@ export const storeProducts = [
   {
     id: 6,
     title: "iPhone 8",
-    img: "img/product-6.png",
+    img: "img/product6.png",
     price: 17,
     company: "Apple",
     info:
@@ -76,7 +76,7 @@ export const storeProducts = [
   {
     id: 7,
     title: "iPhone 11",
-    img: "img/product-7.png",
+    img: "img/product7.png",
     price: 30,
     company: "Apple",
     info:
@@ -88,7 +88,7 @@ export const storeProducts = [
   {
     id: 8,
     title: "iPhone X",
-    img: "img/product-9.png",
+    img: "img/product9.png",
     price: 2,
     company: "Apple",
     info:
@@ -102,7 +102,7 @@ export const storeProducts = [
 export const detailProduct = {
   id: 1,
   title: "iPhone 7plus",
-  img: "img/product-4.png",
+  img: "img/product4.png",
   price: 10,
   company: "Apple",
   info:
