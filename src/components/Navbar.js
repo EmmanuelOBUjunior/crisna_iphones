@@ -1,11 +1,21 @@
 import React, { Component } from 'react'
+import {Link} from 'react-router-dom';
+import logo from '../logo.svg';
 
 class Navbar extends Component {
     render() {
         return (
-            <div>
-                <h3>Hello from navbar</h3>
-            </div>
+           <nav className = "navbar navbar-expand-sm bg-primary navbar-dark px-sm-5">
+            <Link to = '/'>
+                <img src = {logo} alt = "store" className= "navbar-brand"></img>
+            </Link>
+            <ul className = "navbar-nav align-items-center">
+                <li className = "nav-item ml-5"></li>
+            <Link to = "/" className = "nav-link">
+                Products
+            </Link>
+            </ul>
+           </nav>
         )
     }
 }
