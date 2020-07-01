@@ -10,9 +10,12 @@ class ProductProvider extends Component {
     state ={
         products: [],
         detailProduct: detailProduct,
-        cart:[],
+        cart:storeProducts,
         modalOpen: false,
         modalProduct:detailProduct,
+        cartSubTotal:0,
+        cartTax:0,
+        cartTotal:0
     };
 
 componentDidMount() {
@@ -67,6 +70,19 @@ closeModal = ()=>{
     })
 }
 
+increment = (id) =>{
+    console.log('Increment method')
+}
+decrement = (id) =>{
+    console.log('decrement method')
+}
+removeItem = (id) =>{
+    console.log('Item removed')
+}
+clearCart = () =>{
+    console.log('Cart cleared')
+}
+
     render() {
         return (
             <ProductContext.Provider value = {{
@@ -74,8 +90,12 @@ closeModal = ()=>{
               handleDetail:this.handleDetail,
               addtoCart:this.addtoCart,
               openModal:this.openModal,
-              closeModal:this.closeModal
-        }}
+              closeModal:this.closeModal,
+              increment:this.increment,
+              decrement:this.decrement,
+              removeItem:this.removeItem,
+              clearCart:this.clearCart
+                 }}
             >
                 
                 {this.props.children}
