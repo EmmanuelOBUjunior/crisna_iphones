@@ -101,8 +101,8 @@ export const storeProducts = [
 
 export const detailProduct = {
   id: 1,
-  title: "iPhone 7plus",
-  img: "img/product4.png",
+  title: "iPhone 6",
+  img: "img/product1.png",
   price: 10,
   company: "Apple",
   info:
